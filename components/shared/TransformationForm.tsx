@@ -190,7 +190,7 @@ const TransformationForm = ({ action, data = null, userId, type, creditBalance, 
         <CustomField 
           control={form.control}
           name="title"
-          formLabel="Image Title"
+          formLabel="Tit Imaj la"
           className="w-full"
           render={({ field }) => <Input {...field} className="input-field" />}
         />
@@ -207,7 +207,7 @@ const TransformationForm = ({ action, data = null, userId, type, creditBalance, 
                 value={field.value}
               >
                 <SelectTrigger className="select-field">
-                  <SelectValue placeholder="Select size" />
+                  <SelectValue placeholder="Chwazi Dimansyon" />
                 </SelectTrigger>
                 <SelectContent>
                   {Object.keys(aspectRatioOptions).map((key) => (
@@ -300,7 +300,7 @@ const TransformationForm = ({ action, data = null, userId, type, creditBalance, 
             disabled={isTransforming || newTransformation === null}
             onClick={onTransformHandler}
           >
-            {isTransforming ? 'Transfòmasyon...' : 'Transfòmasyon Reyisi'}
+            {isTransforming ? 'Transfòmasyon...' : 'Transfòme Imaj'}
           </Button>
           <Button 
             type="submit"

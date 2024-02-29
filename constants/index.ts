@@ -10,7 +10,7 @@ export const navLinks = [
     icon: "/assets/icons/image.svg",
   },
   {
-    label: "Generative Fill",
+    label: "Ranplisaj Jenerativ",
     route: "/transformations/add/fill",
     icon: "/assets/icons/stars.svg",
   },

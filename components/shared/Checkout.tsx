@@ -7,6 +7,7 @@ import { useToast } from "@/components/ui/use-toast";
 import { checkoutCredits } from "@/lib/actions/transaction.action";
 
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 const Checkout = ({
   plan,
@@ -66,7 +67,7 @@ const Checkout = ({
           role="link"
           className="w-full rounded-full bg-purple-gradient bg-cover"
         >
-          Buy Credit
+         <Link href="https://tally.so/r/mRDoPQ">Achte Kredi</Link>
         </Button>
       </section>
     </form>
