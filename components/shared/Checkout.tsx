@@ -67,7 +67,7 @@ const Checkout = ({
           role="link"
           className="w-full rounded-full bg-purple-gradient bg-cover"
         >
-         <Link href="https://tally.so/r/mRDoPQ">Achte Kredi</Link>
+         <Link href="https://tally.so/r/3jQq5R">Achte Kredi</Link>
         </Button>
       </section>
     </form>
