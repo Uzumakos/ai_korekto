@@ -35,8 +35,8 @@ const MediaUploader = ({
     onValueChange(result?.info?.public_id)
 
     toast({
-      title: 'Image uploaded successfully',
-      description: '1 credit was deducted from your account',
+      title: 'Imaj la ajoute',
+      description: '1 kredi soti sou kont ou an',
       duration: 5000,
       className: 'success-toast' 
     })
@@ -44,8 +44,8 @@ const MediaUploader = ({
 
   const onUploadErrorHandler = () => {
     toast({
-      title: 'Something went wrong while uploading',
-      description: 'Please try again',
+      title: 'Gen yon bagay ki pa mache pandan w ap ajoute imaj la',
+      description: 'Tanpri eseye ankò',
       duration: 5000,
       className: 'error-toast' 
     })
@@ -53,7 +53,7 @@ const MediaUploader = ({
 
   return (
     <CldUploadWidget
-      uploadPreset="jsm_imaginify"
+      uploadPreset="jsm_jerem"
       options={{
         multiple: false,
         resourceType: "image",
@@ -64,7 +64,7 @@ const MediaUploader = ({
       {({ open }) => (
         <div className="flex flex-col gap-4">
           <h3 className="h3-bold text-dark-600">
-            Original
+            Orijinal
           </h3>
 
           {publicId ? (
@@ -91,7 +91,7 @@ const MediaUploader = ({
                   height={24}
                 />
               </div>
-                <p className="p-14-medium">Click here to upload image</p>
+                <p className="p-14-medium">Klike la pou ajoute imaj la</p>
             </div>
           )}
         </div>

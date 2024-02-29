@@ -300,14 +300,14 @@ const TransformationForm = ({ action, data = null, userId, type, creditBalance, 
             disabled={isTransforming || newTransformation === null}
             onClick={onTransformHandler}
           >
-            {isTransforming ? 'Transforming...' : 'Apply Transformation'}
+            {isTransforming ? 'Transfòmasyon...' : 'Transfòmasyon Reyisi'}
           </Button>
           <Button 
             type="submit"
             className="submit-button capitalize"
             disabled={isSubmitting}
           >
-            {isSubmitting ? 'Submitting...' : 'Save Image'}
+            {isSubmitting ? 'Soumèt...' : 'Sere Imaj'}
           </Button>
         </div>
       </form>
