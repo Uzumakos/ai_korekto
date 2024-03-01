@@ -96,11 +96,11 @@ export const plans = [
     _id: 3,
     name: "VIP",
     icon: "/assets/icons/free-plan.svg",
-    price: 200,
+    price: 1000,
     credits: 1000,
     inclusions: [
       {
-        label: "2000 Kredi",
+        label: "1000 Kredi",
         isIncluded: true,
       },
       {
@@ -143,7 +143,7 @@ export const transformationTypes = {
   },
   remove: {
     type: "remove",
-    title: "Object Remove",
+    title: "Objè w ap retire a",
     subTitle: "Idantifye epi elimine yon bagay ki nan imaj",
     config: {
       remove: { prompt: "", removeShadow: true, multiple: true },
@@ -152,7 +152,7 @@ export const transformationTypes = {
   },
   recolor: {
     type: "recolor",
-    title: "Object Recolor",
+    title: "Objè w ap chanje koulè a",
     subTitle: "Idantifye epi chanje koulè ",
     config: {
       recolor: { prompt: "", to: "", multiple: true },
