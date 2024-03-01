@@ -28,17 +28,17 @@ export const DeleteConfirmation = ({ imageId }: { imageId: string }) => {
           className="button h-[44px] w-full md:h-[54px]"
           variant="destructive"
         >
-          Delete Image
+          Efase Imaj
         </Button>
       </AlertDialogTrigger>
 
       <AlertDialogContent className="flex flex-col gap-10">
         <AlertDialogHeader>
           <AlertDialogTitle>
-            Are you sure you want to delete this image?
+            Ou asire w vle efase imaj sa?
           </AlertDialogTitle>
           <AlertDialogDescription className="p-16-regular">
-            This will permanently delete this image
+            Depi w dakò, imaj la ap efase nèt
           </AlertDialogDescription>
         </AlertDialogHeader>
 
@@ -52,7 +52,7 @@ export const DeleteConfirmation = ({ imageId }: { imageId: string }) => {
               })
             }
           >
-            {isPending ? "Deleting..." : "Delete"}
+            {isPending ? "Pasyan..." : "Efase"}
           </AlertDialogAction>
         </AlertDialogFooter>
       </AlertDialogContent>
